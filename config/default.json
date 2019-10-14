@@ -1,0 +1,13 @@
+{
+    "dbConfig": {
+        "host": "http://localhost", 
+        "port": "52773", 
+        "namespace": "USER", 
+        "dbname": "testj"
+    },
+    "dataFileName": "sample.json", 
+    "arrayName": "people", 
+    "schemaFileName": "schema.json",
+    "maxItems": 10, 
+    "minThreshold": 0.2
+}
