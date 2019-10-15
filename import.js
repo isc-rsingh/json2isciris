@@ -16,6 +16,10 @@ var DBNAME = config.get('dbConfig.dbname')
 const api = axios.create({
     baseURL: HOST + ":" + PORT + "/api/docdb/v1/" + DBNAMESPACE,
     timeout: 10000, 
+    auth: {
+        username: config.get('dbConfig.username'),
+        password: config.get('dbConfig.password')
+    },
     headers: {'Content-Type': 'application/json'}
 })
 
