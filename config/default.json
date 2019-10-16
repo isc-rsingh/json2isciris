@@ -3,7 +3,9 @@
         "host": "http://localhost", 
         "port": "52773", 
         "namespace": "USER", 
-        "dbname": "testj"
+        "dbname": "testj",
+        "username":"_SYSTEM",
+        "password":"SYS"
     },
     "dataFileName": "sample.json", 
     "arrayName": "people", 

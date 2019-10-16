@@ -2,6 +2,7 @@
  * Discover all the data types in a JSON data file.
  */
 var fs = require('fs')
+var config = require('config')
 
 var MAXITEMS = config.get('maxItems')
 var MINTHRESHOLD = config.get('minThreshold')
